@@ -1,0 +1,59 @@
+.header {
+  background-image: url(images/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1109px;
+}
+
+.navbar>.container-fluid {
+  padding: 0;
+}
+
+nav.navbar.navbar-expand-sm.navbar-dark {
+  padding-top: 93px;
+  margin-bottom: 140px;
+}
+
+button.navbar-toggler {
+  position: absolute;
+  top: 10px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-right: 60px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-item:last-child .nav-link {
+  padding-right: 0;
+}
+
+.content h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  margin-bottom: 26px;
+}
+
+.content__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 106px;
+}
+
+.content__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
